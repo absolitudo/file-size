@@ -8,7 +8,7 @@
 </head>
 <body>
     <strong>Submit a file to view its file size.</strong>
-    <form action="multipart/form-data" method="POST">
+    <form action="/upload" enctype="multipart/form-data" method="POST">
         <input type="file" name="file">
         <input type="submit">
     </form>
